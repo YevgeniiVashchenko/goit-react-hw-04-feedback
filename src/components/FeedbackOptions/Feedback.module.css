@@ -1,0 +1,23 @@
+.feedbackButtons {
+  margin-bottom: 20px;
+}
+
+.btn {
+  min-width: 100px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color:azure;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.btn:not(:last-child) {
+    margin-right: 15px;
+  }
+
+.btn:hover,
+.btn:focus {
+    background-color:blue;
+    color: blanchedalmond;
+}

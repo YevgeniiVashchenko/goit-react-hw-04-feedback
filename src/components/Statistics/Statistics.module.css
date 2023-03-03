@@ -1,0 +1,18 @@
+.statisticItem {
+  font-size: 15px;
+}
+
+.statisticItem:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feedback {
+  font-size: 18px;
+  font-weight: 600;
+  color: blueviolet;
+}
